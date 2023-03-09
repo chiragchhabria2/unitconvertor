@@ -1,0 +1,43 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+#container {
+   max-width: 700px;
+   margin: auto;
+}
+#uppercontainer {
+    background-color: greenyellow;
+}
+#digit {
+    width : 2rem;
+    height : 2rem;
+}
+    #digit::-webkit-outer-spin-button,
+    #digit::-webkit-inner-spin-button {
+        display: none;
+      }
+
+#lowercontainer {
+    background-color: rgb(133, 196, 255);
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    background-color: greenyellow;
+}
